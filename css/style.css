@@ -1,0 +1,148 @@
+html {
+    background-image: linear-gradient(to right, rgb(118, 168, 234), rgb(255, 250, 224));
+} /* add background gradient to the page*/
+
+header{ /* navigation header */
+    background-color: darkblue;
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 0 20px;
+}
+
+/* logo */
+header img{
+    width: auto;
+    height: 100px;
+}
+
+/* get rid of the list style in the header*/
+header menu{
+    list-style: none;
+}
+/* get rid of text decoration for the nav */
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+/* align horizontally */
+nav li{
+    display: inline-block;
+    margin-right: 1em;
+}
+/* change the nav when hoverd over*/
+nav a:hover {
+	text-decoration: underline;
+	color: rgb(48, 212, 226);
+}
+
+
+
+
+
+main{
+    background-color: #8ce0ef;
+
+}
+
+/* put the form in the center with spaces between the input sections*/
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f5e49e; 
+    padding: 20px; 
+    border: solid 4px rgb(27, 40, 105);
+    margin-left: 400px;
+    margin-right: 400px;
+    line-height: 2;
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 23px;
+    color: rgb(27, 40, 105);
+}
+ /* change font for headers */
+#form h2{
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+
+/* display for the error messages and sucess messages for the database */
+p{
+    background-color: green;
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+}
+
+footer p{
+    background-color: rgb(27, 40, 105);
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+}
+
+.mainPage h2{
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(27, 40, 105);
+    text-align: center;
+    padding: 20px;
+}
+
+.mainPage h3{
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+/* add background image to index */
+.mainPage {
+    background-image: url(../img/fish.png);
+    background-repeat: no-repeat;
+}
+
+/* direct link to the form from the index */
+.mainPage div{
+    background-color: #f5e49e;
+    padding: 15px 25px;
+    border: solid 2px #f5e49e;
+    width: 10%;
+    color: rgb(27, 40, 105);;
+    margin: 0 auto;
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+/* get rid of text decoration in the button and make text larger */
+.mainPage a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
